@@ -45,13 +45,13 @@ function App() {
       const { value, name } = eventTarget;
 
       if(name === "initial"){
-          setInitial(value)
+          setInitial(Number(value))
       } else if(name === "annual"){
-          setAnnual(value)
+          setAnnual(Number(value))
       } else if(name === "expected"){
-          setExpected(value)
+          setExpected(Number(value))
       } else if(name === "duration"){
-          setDuration(value)   
+          setDuration(Number(value))   
       }
       //setRows(defineRows)
   }
