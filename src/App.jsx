@@ -37,7 +37,7 @@ function App() {
         capital: formatter.format(data[i].valueEndOfYear - totalInterest),
       }) 
     }
-    console.log("defineRows func")
+    //console.log("defineRows func")
     return allRows;
   }
 
